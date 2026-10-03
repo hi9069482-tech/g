@@ -1,0 +1,6 @@
+{
+  "name": "PakPattan Services Hub",
+  "description": "Multi-vendor hyperlocal services marketplace connecting customers with verified local service providers across Pakpattan, Arifwala, and surrounding rural communities.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

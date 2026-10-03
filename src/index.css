@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-navy: #111A4A;
+    --brand-blue: #5865F2;
+    --brand-blue-bright: #6675F5;
+    --brand-green: #18B88A;
+    --brand-orange: #F5A623;
+    --soft-lavender: #F0EEFF;
+    --light-lavender: #F7F6FF;
+    --soft-mint: #E2FFF5;
+    --light-gray: #F7F8FC;
+    --dark-text: #111827;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #F7F8FC;
+    color: #111827;
+    overflow-x: hidden;
+  }
+
+  .font-urdu {
+    font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
+    line-height: 1.9;
+  }
+  
+  .font-heading {
+    font-family: 'Poppins', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Custom smooth transitions and soft shadows */
+.card-hover {
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px -6px rgba(17, 26, 74, 0.08), 0 4px 12px -2px rgba(17, 26, 74, 0.04);
+}
+
+/* Clean scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F0EEFF;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
